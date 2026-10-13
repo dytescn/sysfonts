@@ -1,0 +1,13 @@
+{
+  "name": "sysfonts",
+  "version": "1.0.0",
+  "description": "system fonts management",
+  "keywords": ["sysfonts", "system fonts management"],
+  "author": "funxdata",
+  "type": "sys",
+  "exports": {
+      "./target/release/libsysfonts.dll":"libsysfonts.dll",
+      "./target/release/libsysfonts.dylib":"libsysfonts.dylib",
+      "./target/release/libsysfonts.so":"libsysfonts.so"
+  }
+}
